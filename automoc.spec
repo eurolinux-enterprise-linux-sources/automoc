@@ -4,7 +4,7 @@
 
 Name:           automoc
 Version:        1.0
-Release:        0.18.%{?beta_tag}%{?dist}
+Release:        0.20.%{?beta_tag}%{?dist}
 Summary:        Automatic moc for Qt 4
 Group:          Development/Tools
 License:        BSD
@@ -56,6 +56,12 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.0-0.20.rc3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-0.19.rc3
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-0.18.rc3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
